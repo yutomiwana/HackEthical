@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { HackethicalforgeContainer } from './components/HackethicalforgeContainer';
 import './App.css';
-
+import buffer from 'env-nodejs';
 function App() {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState(null);
